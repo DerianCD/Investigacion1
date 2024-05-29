@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #e6e6e6;
+}
+
+tbody {
+    text-align: center;
+}
+
+table th:nth-child(1), table td:nth-child(1) {
+    background-color: #ffb4b4;
+}
+
+
+table th:nth-child(2), table td:nth-child(2) {
+    background-color: #959cff;
+}
+td img {
+    margin: 0 20px;
+}
